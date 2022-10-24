@@ -1,0 +1,140 @@
+* { padding: 0; margin: 0; }
+html,body {
+    height:100%;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/wallpaper.jpg") ;
+  position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+ }
+ input[type=text], input[type=password], input[type=email]{
+  width: 40%;
+  padding: 5px 6px;
+  box-sizing: border-box;
+}
+
+a {
+  color: #00B7FF;
+}
+.head{
+  background:#002350;
+    height: 1000px;
+  padding-top: 30%;
+  padding-left: 40px;
+}
+
+.bar{
+  background:#002350;
+  height:110vh;
+}
+.shop-box{
+  border-top: 5px solid #B4FAFF;
+  border-bottom: 5px solid #B4FAFF;
+  height: 60vh;
+  display: block;
+  overflow: auto;
+}
+.shop-list li{
+  background: gainsboro;
+  padding: 10px;
+  margin : 10px;
+  }
+/**.admin-box{
+  height: 100vh;
+  display: block;
+  overflow: auto;
+}**/
+.form-style{
+  margin-top: 20%;
+  border:10px solid #00EEFF;
+  padding:20px ;
+  border-radius: 30px;
+  background: #002350;
+}
+.btn-submit{
+  background: #047C85;
+  border: none;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 55px;
+  border-radius: 20px;
+  color: white;
+}
+/* input[type=button]{
+  background: #047C85;
+  border: none;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px 50px;
+  border-radius: 20px;
+  color: white;
+} */
+
+.nav-head-custom{
+  color:white;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-right: 20px;
+}
+ul.nav.navbar-nav li a{
+  color: white;
+  border-right: 3px solid whitesmoke;
+  background: #00306B;
+}
+ul.nav.navbar-nav li a:hover{
+  color: #ADADAD;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  border-radius: 10px;
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color:#047C85;
+  color: white;
+}
+ul{
+ list-style: none;
+}
+.modal-info li{
+  padding:3px 0;
+}
+#tabpad li{
+  padding: 6px 0;
+}
